@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form-wrapper {
+    position: relative;
+    top: 2%;
+    height: 700px;
+    width: 100%;
+}
+
+#info-section {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.wrapper {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    height: 600px;
+    border: 2px solid rebeccapurple;
+    box-shadow: 5px 5px darkgray;
+    width: 80%;
+    overflow-y: scroll;
+}
+
+#lab-test-img {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+#lab-test-img img {
+    width: 78%;
+    height: 600px;
+}
+
+#test-check-warning {
+    color: red;
+}
+
+section h1 {
+    position: relative;
+    left: 4%
+}
+
+.margin-left-5 {
+    margin-left: 5%;
+}
+
+.button-group {
+    position: absolute;
+    bottom: 1%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.margin-left-2 {
+    margin-left: 2%;
+}
+
+.margin-top-5 {
+    margin-top: 5%
+}
+
+.padding-top-5 {
+    padding-top: 5%;
+}
+
+button {
+    border-color: #AC65F0;
+    background-color: #AC65F0;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    width: 6%;
+}
+
+input[type="text"],
+[type="email"],
+[type="number"],
+[type="date"],
+[type="time"],
+select,
+textarea {
+
+    height: 30px;
+}
+
+input[type="text"],
+[type="email"],
+[type="number"],
+[type="date"],
+[type="time"],
+textarea {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+
+.width-40per {
+    width: 40%;
+}
+
+.width-200px {
+    width: 200px;
+}
+
+.width-50per {
+    width: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+label[for="district"] {
+    font-size: 20px;
+}
+
+input[type="text"]:hover,
+[type="email"]:hover,
+[type="number"]:hover,
+[type="date"]:hover,
+[type="time"]:hover,
+textarea:hover {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="time"]:focus,
+textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .margin-left-2,
+    .margin-left-5 {
+        margin-left: auto;
+    }
+
+    label[for="time"] {
+        margin-top: 1%;
+    }
+
+    button {
+        width: 10%;
+    }
+}
+
+@media (min-width: 700px),
+(max-width: 900px) {
+
+    button {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        height: 500px;
+        border: 2px solid rebeccapurple;
+        box-shadow: 5px 5px darkgrey;
+        width: 80%;
+        overflow-y: scroll;
+    }
+
+    #datetime-preference {
+        padding-bottom: 4%;
+    }
+
+    #lab-test-img img {
+        width: 80%;
+        height: 500px;
+    }
+
+    section h1 {
+        position: relative;
+        left: 4%;
+        word-wrap: normal;
+    }
+
+
+    .button-group {
+        position: absolute;
+        bottom: 15%;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+    button {
+        width: 15%;
+    }
+}
+
+
+@media only screen and (min-width:1000px) {
+    button {
+        width: 6%;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        height: 550px;
+        border: 2px solid rebeccapurple;
+        box-shadow: 5px 5px darkgray;
+        width: 80%;
+        overflow-y: scroll;
+    }
+
+    #lab-test-img {
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        right: 0;
+    }
+
+    #lab-test-img img {
+        width: 80%;
+        height: 550px;
+    }
+
+    .button-group {
+        position: absolute;
+        bottom: 5%;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+}
